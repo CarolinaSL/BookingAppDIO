@@ -95,11 +95,6 @@ namespace BookingAppDio.Flight.Infra.Seed
                     new DateTime(2022, 1, 31, 14, 0, 0),
                     2, 120m,
                     new DateTime(2022, 1, 31), FlightStatus.Completed,
-                    8000),
-               Domain.Flights.Flight.Create(1, "CT539", 1, 1, new DateTime(2022, 1, 31, 12, 0, 0),
-                    new DateTime(2022, 1, 31, 14, 0, 0),
-                    2, 120m,
-                    new DateTime(2022, 1, 31), FlightStatus.Flying,
                     8000)
             };
                 await _flightDbContext.Flights.AddRangeAsync(flights);
