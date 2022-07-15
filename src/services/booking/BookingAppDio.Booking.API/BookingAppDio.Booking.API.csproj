@@ -24,10 +24,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\..\..\core\BookingAppDio.Bus\BookingAppDio.Bus.csproj" />
     <ProjectReference Include="..\..\..\core\BookingAppDio.Core\BookingAppDio.Core.csproj" />
     <ProjectReference Include="..\BookingAppDio.Booking.Domain\BookingAppDio.Booking.Domain.csproj" />

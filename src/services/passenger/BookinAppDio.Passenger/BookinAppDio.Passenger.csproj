@@ -23,11 +23,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-    <Folder Include="Identity\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\..\..\core\BookingAppDio.Bus\BookingAppDio.Bus.csproj" />
     <ProjectReference Include="..\..\..\core\BookingAppDio.Core\BookingAppDio.Core.csproj" />
   </ItemGroup>

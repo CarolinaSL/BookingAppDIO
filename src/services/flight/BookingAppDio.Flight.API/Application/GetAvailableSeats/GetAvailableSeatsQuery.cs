@@ -1,6 +1,7 @@
-﻿namespace BookingAppDio.Flight.API.Application.GetAvailableSeats
+﻿using BookingAppDio.Core.CQRS;
+using BookingAppDio.Flight.API.Dtos;
+
+namespace BookingAppDio.Flight.API.Application.GetAvailableSeats
 {
-    public class GetAvailableSeatsQuery
-    {
-    }
+    public record GetAvailableSeatsQuery(long FlightId) : IQuery<IEnumerable<SeatResponseDto>>;
 }
